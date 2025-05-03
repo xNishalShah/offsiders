@@ -2,7 +2,6 @@ import { ChatComponent } from "./ChatComponent";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useRecoilValue } from "recoil";
 
 gsap.registerPlugin(ScrollTrigger);
 

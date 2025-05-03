@@ -4,7 +4,6 @@ import { Navbar } from "../components/ui/navbar";
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { HoverBorderGradient } from "../components/ui/hover-border-gradient"
-import { useSetRecoilState } from "recoil";
 
 export const LandingPage = () => {
     const navigate = useNavigate()
